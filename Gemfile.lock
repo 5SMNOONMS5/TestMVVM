@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    clamp (0.6.5)
+    depcheck (0.5.0)
+      clamp (~> 0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  depcheck
+
+BUNDLED WITH
+   1.15.3
