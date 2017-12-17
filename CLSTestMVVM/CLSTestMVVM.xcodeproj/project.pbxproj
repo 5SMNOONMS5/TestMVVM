@@ -13,12 +13,18 @@
 		7F3149391FC9392C0060D7BB /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3149381FC9392C0060D7BB /* Print.swift */; };
 		7F31493D1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31493B1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift */; };
 		7F31493E1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F31493C1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib */; };
+		7F9DA9631FE68748006C1004 /* CLSCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DA9621FE68748006C1004 /* CLSCollectionLayout.swift */; };
 		7FC261411F828E8D00A45692 /* CLSInstitutionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC261401F828E8D00A45692 /* CLSInstitutionModel.swift */; };
 		7FDB08451F8219D100BD4B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB08441F8219D100BD4B86 /* AppDelegate.swift */; };
 		7FDB084A1F8219D100BD4B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDB08481F8219D100BD4B86 /* Main.storyboard */; };
 		7FDB084C1F8219D100BD4B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDB084B1F8219D100BD4B86 /* Assets.xcassets */; };
 		7FDB085A1F821A4500BD4B86 /* CLSMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB08591F821A4500BD4B86 /* CLSMasterTableViewController.swift */; };
 		7FDB085E1F821DC900BD4B86 /* CLSMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB085D1F821DC900BD4B86 /* CLSMasterViewModel.swift */; };
+		7FEC5CA41FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC5CA31FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift */; };
+		7FEC5CA61FE6563000A844BC /* CLSAnimationScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC5CA51FE6563000A844BC /* CLSAnimationScrollViewModel.swift */; };
+		7FEC5CA81FE6563B00A844BC /* CLSAnimationScrollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC5CA71FE6563B00A844BC /* CLSAnimationScrollModel.swift */; };
+		7FEC5CAE1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC5CAC1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift */; };
+		7FEC5CAF1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC5CAD1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib */; };
 		7FFA5EF41FBF230C0069C1EC /* CLSPublicParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF21FBF230C0069C1EC /* CLSPublicParkMapViewController.swift */; };
 		7FFA5EF71FC00A550069C1EC /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF61FC00A550069C1EC /* Box.swift */; };
 		7FFA5EF91FC1D9B70069C1EC /* CLSMasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF81FC1D9B70069C1EC /* CLSMasterModel.swift */; };
@@ -33,6 +39,7 @@
 		7F3149381FC9392C0060D7BB /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		7F31493B1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSInstitutionTableViewCell.swift; sourceTree = "<group>"; };
 		7F31493C1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLSInstitutionTableViewCell.xib; sourceTree = "<group>"; };
+		7F9DA9621FE68748006C1004 /* CLSCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSCollectionLayout.swift; sourceTree = "<group>"; };
 		7FC2613F1F82895200A45692 /* apiIn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apiIn.json; sourceTree = "<group>"; };
 		7FC261401F828E8D00A45692 /* CLSInstitutionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSInstitutionModel.swift; sourceTree = "<group>"; };
 		7FDB08411F8219D100BD4B86 /* CLSTestMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLSTestMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +49,11 @@
 		7FDB08501F8219D100BD4B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FDB08591F821A4500BD4B86 /* CLSMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSMasterTableViewController.swift; sourceTree = "<group>"; };
 		7FDB085D1F821DC900BD4B86 /* CLSMasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSMasterViewModel.swift; sourceTree = "<group>"; };
+		7FEC5CA31FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSAnimationScrollCollectionVC.swift; sourceTree = "<group>"; };
+		7FEC5CA51FE6563000A844BC /* CLSAnimationScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSAnimationScrollViewModel.swift; sourceTree = "<group>"; };
+		7FEC5CA71FE6563B00A844BC /* CLSAnimationScrollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSAnimationScrollModel.swift; sourceTree = "<group>"; };
+		7FEC5CAC1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSAnimationScrollCollectionViewCell.swift; sourceTree = "<group>"; };
+		7FEC5CAD1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLSAnimationScrollCollectionViewCell.xib; sourceTree = "<group>"; };
 		7FFA5EF21FBF230C0069C1EC /* CLSPublicParkMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSPublicParkMapViewController.swift; sourceTree = "<group>"; };
 		7FFA5EF61FC00A550069C1EC /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		7FFA5EF81FC1D9B70069C1EC /* CLSMasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSMasterModel.swift; sourceTree = "<group>"; };
@@ -82,6 +94,7 @@
 		7FC261431F828FC600A45692 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				7FEC5CA21FE6532900A844BC /* AnimationScroll */,
 				7FFA5EFB1FC1DAEC0069C1EC /* Institutions */,
 				7FFA5EFA1FC1DAEA0069C1EC /* Parks */,
 			);
@@ -130,10 +143,39 @@
 		7FDB08581F8219EC00BD4B86 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				7FEC5CB01FE6743E00A844BC /* Protocol */,
 				7FC261421F828FBD00A45692 /* Master */,
 				7FC261431F828FC600A45692 /* Detail */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		7FEC5CA21FE6532900A844BC /* AnimationScroll */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC5CAB1FE6736E00A844BC /* View */,
+				7FEC5CA31FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift */,
+				7FEC5CA51FE6563000A844BC /* CLSAnimationScrollViewModel.swift */,
+				7FEC5CA71FE6563B00A844BC /* CLSAnimationScrollModel.swift */,
+				7F9DA9621FE68748006C1004 /* CLSCollectionLayout.swift */,
+			);
+			path = AnimationScroll;
+			sourceTree = "<group>";
+		};
+		7FEC5CAB1FE6736E00A844BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC5CAC1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift */,
+				7FEC5CAD1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FEC5CB01FE6743E00A844BC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		7FFA5EFA1FC1DAEA0069C1EC /* Parks */ = {
@@ -228,6 +270,7 @@
 			files = (
 				7FFEA58D1F8290C400F42A29 /* institution.json in Resources */,
 				7FDB084C1F8219D100BD4B86 /* Assets.xcassets in Resources */,
+				7FEC5CAF1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib in Resources */,
 				7FDB084A1F8219D100BD4B86 /* Main.storyboard in Resources */,
 				7F31493E1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib in Resources */,
 			);
@@ -241,13 +284,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFA5EFD1FC1DB460069C1EC /* CLSInstitutionViewModel.swift in Sources */,
+				7FEC5CA41FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift in Sources */,
 				7F3149351FC92E6D0060D7BB /* CLSPublicParkMapModel.swift in Sources */,
 				7F31493D1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift in Sources */,
 				7FDB085E1F821DC900BD4B86 /* CLSMasterViewModel.swift in Sources */,
 				7F3149371FC938400060D7BB /* CLSPublicParkMapViewModel.swift in Sources */,
 				7FDB085A1F821A4500BD4B86 /* CLSMasterTableViewController.swift in Sources */,
 				7FFA5EF41FBF230C0069C1EC /* CLSPublicParkMapViewController.swift in Sources */,
+				7F9DA9631FE68748006C1004 /* CLSCollectionLayout.swift in Sources */,
+				7FEC5CA61FE6563000A844BC /* CLSAnimationScrollViewModel.swift in Sources */,
+				7FEC5CAE1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift in Sources */,
 				7F3149311FC9297E0060D7BB /* CLSInstitutionViewController.swift in Sources */,
+				7FEC5CA81FE6563B00A844BC /* CLSAnimationScrollModel.swift in Sources */,
 				7F3149391FC9392C0060D7BB /* Print.swift in Sources */,
 				7FFA5EF71FC00A550069C1EC /* Box.swift in Sources */,
 				7FFA5EF91FC1D9B70069C1EC /* CLSMasterModel.swift in Sources */,

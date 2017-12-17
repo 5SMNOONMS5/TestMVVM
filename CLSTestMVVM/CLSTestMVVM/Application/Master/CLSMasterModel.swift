@@ -9,11 +9,14 @@
 import Foundation
 
 enum EnumLists {
+    case animationScroll
     case institution
     case publicPark
     
     var controllerName: String {
         switch self {
+        case .animationScroll:
+            return "CLSAnimationScrollCollectionVC"
         case .institution:
             return "CLSInstitutionViewController"
         case .publicPark:
@@ -23,6 +26,8 @@ enum EnumLists {
     
     var title: String {
         switch self {
+        case .animationScroll:
+            return "動畫特效-滑動"
         case .institution:
             return "臺北市環境教育機構"
         case .publicPark:
@@ -33,7 +38,7 @@ enum EnumLists {
 
 class CLSMasterModel {
     
-    var lists: [EnumLists] = [.institution, .publicPark]
+    var lists: [EnumLists] = [.animationScroll, .institution, .publicPark]
     
     init() {}
     
