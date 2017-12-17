@@ -35,35 +35,35 @@ final class CLSInstitutionModel {
     
     func parse(completion: Handler) {
     
+        var institutions: [CLSInstitution]? = nil
+        defer {
+            completion(institutions)
+        }
+        
         guard let path = Bundle.main.path(forResource: "institution", ofType: "json") else {
-            completion(nil)
             cls_NegativePrint(msg: "path no found")
             return
         }
-
+        
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) else {
-            completion(nil)
             cls_NegativePrint(msg: "no data")
             return
         }
 
         guard let jsonResult = try? JSONSerialization.jsonObject(with: data as Data, options: JSONSerialization.ReadingOptions(rawValue: 0))  else {
-            completion(nil)
             cls_NegativePrint(msg: "json Serialization fail")
             return
         }
 
         if let jsonArray = jsonResult as? [[String: String]] {
-            
-            var institutions: [CLSInstitution] = []
+            var _buffer = [CLSInstitution]()
             for object in jsonArray {
-                institutions.append(CLSInstitution(json: object))
+                _buffer.append(CLSInstitution(json: object))
             }
+            institutions = _buffer
             cls_HighLightPrint(msg: "parse success")
-            completion(institutions)
         } else {
             cls_NegativePrint(msg: "parse fail")
-            completion(nil)
         }
     }
 }
