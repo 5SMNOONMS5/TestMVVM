@@ -13,6 +13,12 @@
 		7F3149391FC9392C0060D7BB /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3149381FC9392C0060D7BB /* Print.swift */; };
 		7F31493D1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31493B1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift */; };
 		7F31493E1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F31493C1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib */; };
+		7F60CD852086F2C300AF1356 /* OneWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD822086F2C300AF1356 /* OneWayBinding.swift */; };
+		7F60CD862086F2C300AF1356 /* Binding+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD842086F2C300AF1356 /* Binding+UILabel.swift */; };
+		7F60CD8A2086F38D00AF1356 /* CLSDataBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD882086F38D00AF1356 /* CLSDataBindingViewController.swift */; };
+		7F60CD8D2086F3AD00AF1356 /* Extension+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD8C2086F3AD00AF1356 /* Extension+NSObject.swift */; };
+		7F60CD952086F46900AF1356 /* CLSDataBindingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD942086F46900AF1356 /* CLSDataBindingViewModel.swift */; };
+		7F60CD972086F49700AF1356 /* Binding+UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60CD962086F49700AF1356 /* Binding+UIProgressView.swift */; };
 		7F9DA9631FE68748006C1004 /* CLSCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DA9621FE68748006C1004 /* CLSCollectionLayout.swift */; };
 		7FC261411F828E8D00A45692 /* CLSInstitutionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC261401F828E8D00A45692 /* CLSInstitutionModel.swift */; };
 		7FDB08451F8219D100BD4B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB08441F8219D100BD4B86 /* AppDelegate.swift */; };
@@ -26,7 +32,6 @@
 		7FEC5CAE1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC5CAC1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift */; };
 		7FEC5CAF1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC5CAD1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib */; };
 		7FFA5EF41FBF230C0069C1EC /* CLSPublicParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF21FBF230C0069C1EC /* CLSPublicParkMapViewController.swift */; };
-		7FFA5EF71FC00A550069C1EC /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF61FC00A550069C1EC /* Box.swift */; };
 		7FFA5EF91FC1D9B70069C1EC /* CLSMasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EF81FC1D9B70069C1EC /* CLSMasterModel.swift */; };
 		7FFA5EFD1FC1DB460069C1EC /* CLSInstitutionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5EFC1FC1DB460069C1EC /* CLSInstitutionViewModel.swift */; };
 		7FFEA58D1F8290C400F42A29 /* institution.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FFEA58C1F8290C400F42A29 /* institution.json */; };
@@ -39,6 +44,12 @@
 		7F3149381FC9392C0060D7BB /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		7F31493B1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSInstitutionTableViewCell.swift; sourceTree = "<group>"; };
 		7F31493C1FC9445D0060D7BB /* CLSInstitutionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLSInstitutionTableViewCell.xib; sourceTree = "<group>"; };
+		7F60CD822086F2C300AF1356 /* OneWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneWayBinding.swift; sourceTree = "<group>"; };
+		7F60CD842086F2C300AF1356 /* Binding+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binding+UILabel.swift"; sourceTree = "<group>"; };
+		7F60CD882086F38D00AF1356 /* CLSDataBindingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSDataBindingViewController.swift; sourceTree = "<group>"; };
+		7F60CD8C2086F3AD00AF1356 /* Extension+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSObject.swift"; sourceTree = "<group>"; };
+		7F60CD942086F46900AF1356 /* CLSDataBindingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSDataBindingViewModel.swift; sourceTree = "<group>"; };
+		7F60CD962086F49700AF1356 /* Binding+UIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+UIProgressView.swift"; sourceTree = "<group>"; };
 		7F9DA9621FE68748006C1004 /* CLSCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSCollectionLayout.swift; sourceTree = "<group>"; };
 		7FC2613F1F82895200A45692 /* apiIn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apiIn.json; sourceTree = "<group>"; };
 		7FC261401F828E8D00A45692 /* CLSInstitutionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSInstitutionModel.swift; sourceTree = "<group>"; };
@@ -55,7 +66,6 @@
 		7FEC5CAC1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSAnimationScrollCollectionViewCell.swift; sourceTree = "<group>"; };
 		7FEC5CAD1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLSAnimationScrollCollectionViewCell.xib; sourceTree = "<group>"; };
 		7FFA5EF21FBF230C0069C1EC /* CLSPublicParkMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSPublicParkMapViewController.swift; sourceTree = "<group>"; };
-		7FFA5EF61FC00A550069C1EC /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		7FFA5EF81FC1D9B70069C1EC /* CLSMasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSMasterModel.swift; sourceTree = "<group>"; };
 		7FFA5EFC1FC1DB460069C1EC /* CLSInstitutionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLSInstitutionViewModel.swift; sourceTree = "<group>"; };
 		7FFEA58C1F8290C400F42A29 /* institution.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = institution.json; sourceTree = "<group>"; };
@@ -81,6 +91,34 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		7F60CD812086F2C300AF1356 /* OneWayBinding */ = {
+			isa = PBXGroup;
+			children = (
+				7F60CD822086F2C300AF1356 /* OneWayBinding.swift */,
+				7F60CD832086F2C300AF1356 /* Extension */,
+			);
+			name = OneWayBinding;
+			path = CLSTestMVVM/Application/OneWayBinding;
+			sourceTree = SOURCE_ROOT;
+		};
+		7F60CD832086F2C300AF1356 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F60CD842086F2C300AF1356 /* Binding+UILabel.swift */,
+				7F60CD962086F49700AF1356 /* Binding+UIProgressView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7F60CD872086F34B00AF1356 /* DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				7F60CD882086F38D00AF1356 /* CLSDataBindingViewController.swift */,
+				7F60CD942086F46900AF1356 /* CLSDataBindingViewModel.swift */,
+			);
+			path = DataBinding;
+			sourceTree = "<group>";
+		};
 		7FC261421F828FBD00A45692 /* Master */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +132,7 @@
 		7FC261431F828FC600A45692 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				7F60CD872086F34B00AF1356 /* DataBinding */,
 				7FEC5CA21FE6532900A844BC /* AnimationScroll */,
 				7FFA5EFB1FC1DAEC0069C1EC /* Institutions */,
 				7FFA5EFA1FC1DAEA0069C1EC /* Parks */,
@@ -134,8 +173,8 @@
 		7FDB08561F8219DB00BD4B86 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				7FFA5EF61FC00A550069C1EC /* Box.swift */,
 				7F3149381FC9392C0060D7BB /* Print.swift */,
+				7F60CD8C2086F3AD00AF1356 /* Extension+NSObject.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -143,6 +182,7 @@
 		7FDB08581F8219EC00BD4B86 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				7F60CD812086F2C300AF1356 /* OneWayBinding */,
 				7FEC5CB01FE6743E00A844BC /* Protocol */,
 				7FC261421F828FBD00A45692 /* Master */,
 				7FC261431F828FC600A45692 /* Detail */,
@@ -284,20 +324,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFA5EFD1FC1DB460069C1EC /* CLSInstitutionViewModel.swift in Sources */,
+				7F60CD972086F49700AF1356 /* Binding+UIProgressView.swift in Sources */,
 				7FEC5CA41FE6536100A844BC /* CLSAnimationScrollCollectionVC.swift in Sources */,
 				7F3149351FC92E6D0060D7BB /* CLSPublicParkMapModel.swift in Sources */,
+				7F60CD8A2086F38D00AF1356 /* CLSDataBindingViewController.swift in Sources */,
+				7F60CD862086F2C300AF1356 /* Binding+UILabel.swift in Sources */,
 				7F31493D1FC9445D0060D7BB /* CLSInstitutionTableViewCell.swift in Sources */,
+				7F60CD8D2086F3AD00AF1356 /* Extension+NSObject.swift in Sources */,
 				7FDB085E1F821DC900BD4B86 /* CLSMasterViewModel.swift in Sources */,
 				7F3149371FC938400060D7BB /* CLSPublicParkMapViewModel.swift in Sources */,
+				7F60CD952086F46900AF1356 /* CLSDataBindingViewModel.swift in Sources */,
 				7FDB085A1F821A4500BD4B86 /* CLSMasterTableViewController.swift in Sources */,
 				7FFA5EF41FBF230C0069C1EC /* CLSPublicParkMapViewController.swift in Sources */,
 				7F9DA9631FE68748006C1004 /* CLSCollectionLayout.swift in Sources */,
 				7FEC5CA61FE6563000A844BC /* CLSAnimationScrollViewModel.swift in Sources */,
 				7FEC5CAE1FE6739100A844BC /* CLSAnimationScrollCollectionViewCell.swift in Sources */,
 				7F3149311FC9297E0060D7BB /* CLSInstitutionViewController.swift in Sources */,
+				7F60CD852086F2C300AF1356 /* OneWayBinding.swift in Sources */,
 				7FEC5CA81FE6563B00A844BC /* CLSAnimationScrollModel.swift in Sources */,
 				7F3149391FC9392C0060D7BB /* Print.swift in Sources */,
-				7FFA5EF71FC00A550069C1EC /* Box.swift in Sources */,
 				7FFA5EF91FC1D9B70069C1EC /* CLSMasterModel.swift in Sources */,
 				7FC261411F828E8D00A45692 /* CLSInstitutionModel.swift in Sources */,
 				7FDB08451F8219D100BD4B86 /* AppDelegate.swift in Sources */,

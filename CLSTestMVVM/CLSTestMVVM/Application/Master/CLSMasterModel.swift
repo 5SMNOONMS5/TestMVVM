@@ -12,6 +12,7 @@ enum EnumLists {
     case animationScroll
     case institution
     case publicPark
+    case dataBinding
     
     var controllerName: String {
         switch self {
@@ -21,6 +22,8 @@ enum EnumLists {
             return "CLSInstitutionViewController"
         case .publicPark:
             return "CLSPublicParkMapViewController"
+        case .dataBinding:
+            return "CLSDataBindingViewController"
         }
     }
     
@@ -32,13 +35,15 @@ enum EnumLists {
             return "臺北市環境教育機構"
         case .publicPark:
             return "臺北市公開公園"
+        case .dataBinding:
+            return "單向綁定"
         }
     }
 }
 
 class CLSMasterModel {
     
-    var lists: [EnumLists] = [.animationScroll, .institution, .publicPark]
+    var lists: [EnumLists] = [.animationScroll, .institution, .publicPark, .dataBinding]
     
     init() {}
     

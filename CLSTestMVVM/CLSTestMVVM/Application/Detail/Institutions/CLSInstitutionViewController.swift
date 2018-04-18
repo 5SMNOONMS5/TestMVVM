@@ -14,8 +14,6 @@ final class CLSInstitutionViewController: UIViewController {
     
     fileprivate var viewModel: CLSInstitutionViewModel?
     
-    fileprivate let REUSE_ID = "REUSE_ID"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +22,7 @@ final class CLSInstitutionViewController: UIViewController {
                 cls_HighLightPrint(msg: "Success load")
                 self.institutionTableView.delegate = self
                 self.institutionTableView.dataSource = self
-                self.institutionTableView.register(UINib(nibName: "CLSInstitutionTableViewCell", bundle: nil), forCellReuseIdentifier: REUSE_ID)
+                self.institutionTableView.register(UINib(nibName: "CLSInstitutionTableViewCell", bundle: nil), forCellReuseIdentifier: CLSInstitutionTableViewCell.className)
             } else {
                 cls_NegativePrint(msg: "Fail to load")
                 self.showFialView()
@@ -66,7 +64,7 @@ extension CLSInstitutionViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: REUSE_ID, for: indexPath) as! CLSInstitutionTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: CLSInstitutionTableViewCell.className, for: indexPath) as! CLSInstitutionTableViewCell
         
         let row = indexPath.row
         

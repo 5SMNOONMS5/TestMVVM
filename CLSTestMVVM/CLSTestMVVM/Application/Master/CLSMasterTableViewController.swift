@@ -12,11 +12,9 @@ class CLSMasterTableViewController: UITableViewController {
 
     var masterViewModel: CLSMasterViewModel = CLSMasterViewModel()
     
-    let cellIdentifier = "reuseIdentifier"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.className)
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,7 +44,7 @@ extension CLSMasterTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCell.className, for: indexPath)
         cell.textLabel?.text = self.masterViewModel.getTitle(index: indexPath.row)
         return cell
     }

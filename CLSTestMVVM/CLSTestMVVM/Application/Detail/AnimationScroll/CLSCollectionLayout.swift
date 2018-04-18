@@ -28,6 +28,7 @@
     // Return the size of all the content in the collection view
     override var collectionViewContentSize: CGSize {
         let contentHeight = CGFloat(numberOfItems) * dragOffset + (height - dragOffset)
+        print("collectionViewContentSize = \(contentHeight)")
         return CGSize(width: width, height: contentHeight)
     }
     
@@ -43,6 +44,7 @@
         let proposedItemIndex = round(proposedContentOffset.y / dragOffset)
         let nearestPageOffset = proposedItemIndex * dragOffset
         // Smooth scrolling when user release the touch to focoused cell
+        print("targetContentOffset")
         return CGPoint(x: 0, y: nearestPageOffset)
     }
     
@@ -85,6 +87,8 @@
             cached.append(attributes)
             y = frame.maxY
         }
+        print("cached = \(cached.first?.frame.minY)")
+
     }
     
     // Returns the layout attributes for the item at the specified index path.
@@ -94,25 +98,31 @@
  }
  
 private extension CLSCollectionLayout {
+    
     var numberOfItems: Int {
         return collectionView?.numberOfItems(inSection: 0) ?? 0
     }
+    
     var width: CGFloat {
         return collectionView?.frame.width ?? 0
     }
+    
     var height: CGFloat {
         return collectionView?.frame.height ?? 0
     }
+    
     var yOffset: CGFloat {
         return collectionView?.contentOffset.y ?? 0
     }
  }
  
  private extension CLSCollectionLayout {
+    
     // Returns the item index of the currently featured cell
     var currentExpandedItemIndex: Int {
         return max(0, Int(yOffset / dragOffset))
     }
+    
     // Returns a value between 0 and 1 that represents how close the next cell is to becoming the expanding cell
     var nextItemPercentageOffset: CGFloat {
         return (yOffset / dragOffset) - CGFloat(currentExpandedItemIndex)
